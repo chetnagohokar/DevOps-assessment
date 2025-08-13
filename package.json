@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "ecs-fargate-cdk",
   "version": "1.0.0",
   "description": "",
@@ -20,5 +21,15 @@
     "@types/node": "^24.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
+=======
+  "name": "simple-node-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+>>>>>>> 30a245fe142a460fba5abf726b78eeb6ebc7f641
   }
 }
