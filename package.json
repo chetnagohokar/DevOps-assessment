@@ -1,35 +1,21 @@
 {
-<<<<<<< HEAD
   "name": "ecs-fargate-cdk",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-cdk-lib": "^2.211.0",
-    "constructs": "^10.4.2"
-  },
-  "devDependencies": {
-    "@types/node": "^24.2.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
-=======
-  "name": "simple-node-api",
-  "version": "1.0.0",
+  "description": "ECS Fargate CDK project",
   "main": "app.js",
   "scripts": {
+    "build": "tsc",
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
->>>>>>> 30a245fe142a460fba5abf726b78eeb6ebc7f641
+    "aws-cdk-lib": "^2.211.0",
+    "constructs": "^10.4.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
